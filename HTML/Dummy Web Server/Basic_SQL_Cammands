@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2023-12-20T17:26:06.921Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="0Y2EEDvq1nbT5CK5xNPy" version="22.1.8" type="device">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="1385" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="340" y="-25" width="50" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-2" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Comments in SQL&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="75" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-7" value="" style="shape=table;startSize=0;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;align=center;resizeLast=1;strokeColor=none;fillColor=none;collapsible=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="210" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-7">
+          <mxGeometry width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-10" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-8">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-11" value="Single-Line Comments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="130" y="150" width="180" height="50" as="geometry">
+            <mxRectangle x="130" y="150" width="236" height="144" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-12" value="Single Line Comments double Hyphen ( - )&lt;br&gt;Symbol se start hota hai&lt;br&gt;&lt;br&gt;ex-&amp;nbsp;&lt;br&gt;-- SELECT * FROM employee" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-11">
+          <mxGeometry y="50" width="236" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-16" value="Multi-Line Comments" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" collapsed="1" parent="1">
+          <mxGeometry x="440" y="150" width="170" height="50" as="geometry">
+            <mxRectangle x="440" y="150" width="320" height="180" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-17" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Multi Line Comments&amp;nbsp; /* start hota&lt;br&gt;hai or */ pe end hota hai&lt;/font&gt;&lt;br&gt;&lt;br&gt;Example:-&lt;br&gt;&lt;div style=&quot;font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; color: rgb(255, 255, 255); box-sizing: content-box !important; border-radius: 0px !important; background: none white !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important;&quot; class=&quot;line number1 index0 alt2&quot;&gt;&lt;code style=&quot;font-size: 1em !important; word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;/*&lt;/code&gt;&lt;code style=&quot;word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Select all the columns&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; color: rgb(255, 255, 255); box-sizing: content-box !important; border-radius: 0px !important; background: none white !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important;&quot; class=&quot;line number2 index1 alt1&quot;&gt;&lt;code style=&quot;word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;&lt;font size=&quot;3&quot;&gt;of all the records&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; color: rgb(255, 255, 255); box-sizing: content-box !important; border-radius: 0px !important; background: none white !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important;&quot; class=&quot;line number3 index2 alt2&quot;&gt;&lt;code style=&quot;word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;&lt;font size=&quot;3&quot;&gt;from the Employee_Info table&lt;/font&gt;&lt;/code&gt;&lt;code style=&quot;font-size: 1em !important; word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;:*/&lt;/code&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace; color: rgb(255, 255, 255); box-sizing: content-box !important; border-radius: 0px !important; background: none white !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px 1em !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important;&quot; class=&quot;line number4 index3 alt1&quot;&gt;&lt;code style=&quot;word-break: break-word; box-sizing: content-box !important; font-family: Monaco, Consolas, &amp;quot;Bitstream Vera Sans Mono&amp;quot;, &amp;quot;Courier New&amp;quot;, Courier, monospace !important; color: black !important; border-radius: 0px !important; background: none !important; border: 0px !important; inset: auto !important; float: none !important; height: auto !important; line-height: 1.1em !important; margin: 0px !important; outline: 0px !important; overflow: visible !important; padding: 0px !important; position: static !important; vertical-align: baseline !important; width: auto !important; direction: ltr !important; box-shadow: none !important; display: inline !important;&quot; class=&quot;plain plain&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;SELECT * FROM Students;&lt;/font&gt;&lt;/code&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-16">
+          <mxGeometry y="50" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-21" value="Table" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="550" height="370" as="geometry">
+            <mxRectangle x="150" y="320" width="70" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-21">
+          <mxGeometry y="30" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-23" value="Commands" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-22">
+          <mxGeometry width="200" height="30" as="geometry">
+            <mxRectangle width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-24" value="Uses" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-22">
+          <mxGeometry x="200" width="350" height="30" as="geometry">
+            <mxRectangle width="350" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-21">
+          <mxGeometry y="60" width="550" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ROUND()&lt;/font&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-25">
+          <mxGeometry width="200" height="50" as="geometry">
+            <mxRectangle width="200" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;This ROUND() function to round a number to the nearest integer&lt;/font&gt;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-25">
+          <mxGeometry x="200" width="350" height="50" as="geometry">
+            <mxRectangle width="350" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-21">
+          <mxGeometry y="110" width="550" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-29" value="CEIL()&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-28">
+          <mxGeometry width="200" height="30" as="geometry">
+            <mxRectangle width="200" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-30" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-28">
+          <mxGeometry x="200" width="350" height="30" as="geometry">
+            <mxRectangle width="350" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-21">
+          <mxGeometry y="140" width="550" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-32" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-31">
+          <mxGeometry width="200" height="230" as="geometry">
+            <mxRectangle width="200" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-33" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="du37FckkqoQ3Fd4zKT1B-31">
+          <mxGeometry x="200" width="350" height="230" as="geometry">
+            <mxRectangle width="350" height="230" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-34" value="" style="line;strokeWidth=1;rotatable=0;dashed=0;labelPosition=right;align=left;verticalAlign=middle;spacingTop=0;spacingLeft=6;points=[];portConstraint=eastwest;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="550" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="du37FckkqoQ3Fd4zKT1B-36" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;&quot;&gt;CEIL&lt;/font&gt;()&lt;br&gt;AVG()&lt;br&gt;REPLACE(&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;COLNAME,KYA REPLACE KRNA H, KISSE REPLACE KRNA H&lt;/font&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;)&lt;br&gt;ROUND( col_name, kitne value se round krna h)&lt;br&gt;TRUNCATE(col_name, no.of values after decimal)&lt;br&gt;ORDER BY col_name ascending ya descending order&lt;br&gt;LIMIT&amp;nbsp;result set to only one row&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="890" width="460" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

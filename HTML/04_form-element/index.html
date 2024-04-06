@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+
+</head>
+
+<body>
+    <h1>form</h1>
+
+    <h2>Login form</h2>
+    <form action="/">
+        <p>
+        <div><label for="name">your name</label></div>
+        <input id="name" name="name" type="text" placeholder="first and last name">
+        </p>
+
+        <p>
+        <div><label for="pass">Password</label></div>
+        <input id="pass" name="password" type="password" placeholder="Password" required minlength="4" maxlength="8">
+        </p>
+
+        <p>
+        <div><label for="num">Mobile number</label></div>
+        <input id="num" name="mobile number" type="tel" placeholder="Mobile Number" minlength="10" maxlength="10">
+        </p>
+
+        <p>
+        <div><label for="email">email address</label></div>
+        <input id="email" name="email" type="email" placeholder="Enter your email">
+        </p>
+
+        <p>
+        <div>
+            <input id="checkbox" type="checkbox" required>
+            <label for="checkbox"> agree to <a href="#">Terms and Conditions</a> </label>
+        </div>
+        </p>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>
+
+    </form>
+
+    <div hidden>
+        <h2>Youtube search</h2>
+        <form action="https://www.youtube.com/results">
+            <label for="youtube">youtube search</label>
+            <input id="youtube" type="text" name="search_query">
+            <button>search on youtube</button>
+        </form>
+        <h2>flipkart search</h2>
+        <form action="https://www.flipkart.com/search">
+            <label for="flipkart">flipkart search</label>
+            <input id="flipkart" type="text" name="q">
+            <button>search on flipkart</button>
+        </form>
+
+        <h2>My form</h2>
+        <form action="/">
+            <input type="text" placeholder="Enter your name" required> <br>
+            <input type="password" placeholder="enter your password" minlength="4" maxlength="8"> <br>
+            <input type="number"> <br>
+            <input type="checkbox"> <br>
+            <input type="color"> <br>
+            <input type="date"> <br>
+            <input type="time"> <br>
+            <input type="search"> <br>
+            <input type="range"> <br>
+            <input type="radio"> <br>
+            <input type="submit"> <br>
+            <input type="file"> <br>
+            <input type="week"> <br>
+            <input type="tel"> <br>
+            <input type="email"> <br>
+
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
