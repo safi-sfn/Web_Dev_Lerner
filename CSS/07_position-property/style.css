@@ -1,0 +1,23 @@
+div{
+    position: relative;
+    background-color: teal;
+    top: -8px;
+    bottom: 5px;
+    left: 10px;
+    right: 15px;
+    inset: 9px;
+
+}
+.css-element{
+    background-color: tomato;
+    position: absolute;
+}
+ul{
+    position: relative;
+    background-color: violet;
+}
+header{
+    position: sticky;
+    background-color: teal;
+    top: 0px;
+}

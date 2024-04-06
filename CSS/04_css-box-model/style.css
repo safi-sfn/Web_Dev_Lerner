@@ -1,0 +1,30 @@
+.parent{
+    background-color: chocolate;
+    /* width: 700px; */
+    height: 400px;
+}
+.one{
+    background-color: blueviolet;
+    
+    width:50%;
+
+    
+}
+.two{
+    background-color: turquoise;
+    min-height: 200px;
+    max-width: 400px; 
+    /* overflow: hidden; */
+}
+.pr{
+    background-color: cadetblue;
+}
+#one{
+    background-color: crimson;
+}
+#two{
+    background-color: rgb(247, 164, 11);
+}
+.one-child{
+    width: 50% ;
+}

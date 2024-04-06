@@ -1,0 +1,72 @@
+
+.for-circle { 
+    display: none; 
+}
+.square{
+    display: flex;
+    background-color: black;
+   width: 300px;
+   height: 300px;
+   border: 25px solid blue;
+   print-color-adjust: exact;
+   color: white;
+   font-size:50px ;
+   /* text-align: center; */
+   text-transform: uppercase;
+   justify-content: center;
+   align-items: center;
+}
+/* 
+@media (orientation:portrait){
+    .square{
+        background-color: teal;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 20px solid salmon;
+    }
+    
+    h1{
+        font-size: 60px;
+        color: royalblue;
+    }
+} */
+/*
+@media (500px <= width <= 700px){
+    .square{
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 20px solid blue;
+    }
+    
+     h1{
+        font-size: 33px;
+    } 
+    .for-circle { 
+        display: inline-block; 
+    }
+    .for-sqr { 
+        display: none;
+     }
+
+}
+*/
+
+@media (max-width: 700px){
+    .square{
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        border: 20px solid blue;
+    }
+
+    .for-circle { 
+        display: inline-block; 
+    }
+    .for-sqr { 
+        display: none;
+     }
+}

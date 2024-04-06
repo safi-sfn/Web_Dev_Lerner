@@ -1,0 +1,55 @@
+.html{
+    color: #DD4B25;
+}
+.css{
+    color: #254BDD;
+}
+.js{
+    color: #D7BC3B;
+}
+.rc{
+    color: #087A9F;
+}
+.tw{
+    color: #3EBFF8;
+}
+
+#html{
+    font-size: 32px;
+}
+#css{
+    font-size: 30px;
+}
+#js{
+    font-size: 28px;
+}
+#rc{
+    font-size: 26px;
+}
+#tw{
+    font-size: 24px;
+}
+.kkt{
+    color: #DD4B25;
+}
+safi{
+    font-size: 40px;
+}
+
+[cl]{
+    background-color: aquamarine;
+}
+[cl="ab"]{
+    background-color: rgb(27, 87, 237);
+}
+
+[class]{
+    background-color: wheat;
+}
+
+ul p{
+    background-color: seagreen;
+}
+h1:hover{
+    color:#254BDD
+}
